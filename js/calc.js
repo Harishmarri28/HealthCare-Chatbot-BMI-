@@ -34,17 +34,17 @@ function calcIMC(height, weight) {
 function validateIMC(imc) {
 
   if (imc < 18.50) {
-    resultIMC = 'Baixo peso';
+    resultIMC = 'Low Weight';
   } else if (imc >= 18.50 && imc <= 24.99) {
-    resultIMC = 'Peso normal';
+    resultIMC = 'Normal Weight';
   } else if (imc >= 25 && imc <= 29.99) {
-    resultIMC = 'Sobrepeso';
+    resultIMC = 'Overweight';
   } else if (imc >= 30 && imc <= 34.99) {
-    resultIMC = 'Obesidade de grau 1';
+    resultIMC = 'Gade 1 Obesity';
   } else if (imc >= 35 && imc <= 39.99) {
-    resultIMC = 'Obesidade de grau 2';
+    resultIMC = 'Grade 2 Obesity';
   } else {
-    resultIMC = 'Obesidade de grau 3';
+    resultIMC = 'Grade 3 Obesity';
   }
 
   //console.log(`Tipo IMC: ${resultIMC}`)
