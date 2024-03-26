@@ -4,8 +4,7 @@
 #### [Click here to see in production]
 ##### First, you answer some questions about yourself...
 
-![HealthBot](https://i.imgur.com/nggU3Rw.png)
-
+![HealthBot]
 ##### And then you have all the results you need!
 
-![HealthBot](https://i.imgur.com/rf1kptV.png)
+![HealthBot]
