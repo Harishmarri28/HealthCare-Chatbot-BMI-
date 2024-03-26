@@ -303,7 +303,7 @@ function controlInteraction() {
     }, 50000);
 
     setTimeout(function () {
-      areaMessages.innerHTML += `<p class="credits">HealthCare-Bot was developed by Marri Harish.<br>';
+      areaMessages.innerHTML += `<p class="credits">HealthCare-Bot was developed by Marri Harish.Find out more at:<br><br><br><a class="social" href="https://github.com/Harishmarri28"><i class="fab fa-github"></i></a><a class=" href="https://www.instagram.com/crazy_hari04/"><i class="fab fa-instagram"></i></a></p>';
       scrollDiv();
     }, 51000);
   }
