@@ -301,7 +301,10 @@ function controlInteraction() {
     setTimeout(function () {
       document.getElementById('area-interaction').innerHTML = '<p class="example">Chat finished.</p>'
     }, 50000);
-
+setTimeout(function () {
+      areaMessages.innerHTML += `<p class="credits">HealthCare-Bot was developed by Marri Harish.Find out more at:<br><br><br><a class="social" href="https://github.com/Harishmarri28"><i class="fab fa-github"></i></a><a class="social" href="https://www.instagram.com/crazy_hari04/"><i class="fab fa-instagram"></i></a></p>';
+      scrollDiv();
+    }, 51000);
   }
 
 }
