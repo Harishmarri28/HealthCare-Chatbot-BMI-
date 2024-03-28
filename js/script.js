@@ -187,7 +187,7 @@ function controlInteraction() {
 
   /* USER AGE */
   if (userDataControl[4] != null) {
-    areaMessages.innerHTML += `<p class="user-message">${userData[4]} anos</p>`;
+    areaMessages.innerHTML += `<p class="user-message">${userData[4]} Years</p>`;
     userDataControl[4] = null;
     isTyping = true;
     typingControl();
